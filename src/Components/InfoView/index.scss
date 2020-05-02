@@ -1,0 +1,26 @@
+.infoContainer{
+    &__button{
+        margin-bottom: 15px;
+    }
+}
+
+.pipe{
+    color: lightgrey;
+}
+
+.formFooter{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    &__button{
+        &--cancel{
+            margin: 0px 10px;
+        }
+        &--save{
+            margin: 0px;
+        }
+    }
+}
+.ant-modal-footer{
+    display: none;
+}
